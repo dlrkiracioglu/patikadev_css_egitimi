@@ -2,7 +2,7 @@ body {
     background-color:#d5ecc2;
 }
 
-img {
+.banner {
     border-radius: 15px;
     width: 1000px;
     margin: 50px auto ;
@@ -74,3 +74,54 @@ img {
     font-size: 15px;
     padding: 10px;
 }
+
+.item-images {
+
+    width: 400px;
+
+}
+
+.urunler-icerik {
+    max-width: 1500px;
+    border: 5px solid #ffaaa7;
+    margin: 100px auto 150px auto;
+    background-color: white;
+    padding: 10px 10px;
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Exo', sans-serif;
+    border-radius: 5px;
+}
+.urunler-icerik  > section > ol > li {
+    
+    
+    padding: 60px;
+    font-size: 20px;
+}
+
+.urunler-icerik > section > ol > p {
+    
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.hakkimizda-icerik
+{
+    max-width: 1500px;
+    border: 5px solid #ffaaa7;
+    margin: 100px auto 150px auto;
+    background-color: white;
+    padding: 10px 10px;
+    text-align: left;
+    padding-left: 30px;
+    list-style-position: inside;
+    font-family: 'Exo', sans-serif;
+    border-radius: 5px;
+
+}
+
+.hakkimizda-icerik > section > h2, h4 {
+    color: chocolate;
+    margin: 0 10 0 10;
+
+} 
