@@ -2,6 +2,13 @@ body {
     background-color:#d5ecc2;
 }
 
+img {
+    border-radius: 15px;
+    width: 1000px;
+    margin: 50px auto ;
+    display: block;
+    
+}
 
 .navbar {
     background-color:#98ddca;
@@ -36,4 +43,32 @@ body {
     float: left;
     border-right: 1px solid rgb(150, 209, 180);
 
+}
+
+
+
+
+.anasayfa-icerik {
+    
+    max-width: 1500px;
+    border: 5px solid #ffaaa7;
+    margin: 100px auto 150px auto;
+    background-color: #ffd3b4;
+    padding: 10px 10px;
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Exo', sans-serif;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color:#98ddca;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    padding: 10px;
 }
